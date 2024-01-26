@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "eslint": "eslint './**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
