@@ -12,7 +12,7 @@ This project was build by following the [discord.js guide](https://discordjs.gui
 
 ## Installation
 
-Install the [ESLint package](https://www.npmjs.com/package/eslint) inside your project directory (Make sure you are in the `Source` directory):
+Install the [ESLint package](https://www.npmjs.com/package/eslint) inside your project directory (Make sure you are in the `App` directory):
 
 ```shell
 npm install --save-dev eslint
@@ -141,7 +141,7 @@ There is a special command located in the `package.json` file that runs the ESLi
 }
 ```
 
-Once you have pasted your JavaScript code that you want to be analyzed by ESLint in the `main.js` file, you can proceed to write the following command in the console (Make sure you are in the `Source` directory):
+Once you have pasted your JavaScript code that you want to be analyzed by ESLint in the `main.js` file, you can proceed to write the following command in the console (Make sure you are in the `App` directory):
 
 ```shell
 npm run eslint
@@ -150,14 +150,14 @@ npm run eslint
 If you decide to run the command with the example code provided in the `main.js` file, ESLint will show you the errors that the code has following the configuration previously established in the `.eslintrc.json` file. All that remains is to gradually fix the errors shown by the console.
 
 ```
-╭╴fjrodafo@linux[Source](main)
+╭╴fjrodafo@linux[App](main)
 ╰─╴$ npm run eslint
 
 > eslint
 > eslint './**/*.js'
 
 
-/home/fjrodafo/Documents/Git_Repos/ESLint/Source/main.js
+/home/fjrodafo/Documents/Git_Repos/ESLint/App/src/main.js
    3:1   error  Unexpected var, use let or const instead                              no-var
    3:15  error  Missing semicolon                                                     semi
    4:15  error  Missing semicolon                                                     semi
