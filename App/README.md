@@ -176,7 +176,7 @@ If you decide to run the command with the example code provided in the `main.js`
   13 errors and 0 warnings potentially fixable with the `--fix` option.
 ```
 
-Once all the errors in the example code have been corrected, it would look like this:
+Once all the errors in the example code have been corrected, it would look like this (type `npm run eslintfix` to fix errors automatically):
 
 ```js
 let num1, num2;
