@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: "18"
       - name: Install dependencies
-        run: cd ./Source && npm install
-      - name: Lint
-        run: cd ./Source && npm run eslint
+        run: cd ./App && npm install
+      - name: ESLint
+        run: cd ./App && npm run eslint
