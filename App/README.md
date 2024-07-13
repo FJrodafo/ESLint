@@ -157,7 +157,7 @@ If you decide to run the command with the example code provided in the `main.js`
 > eslint './**/*.js'
 
 
-/home/fjrodafo/Documents/Git_Repos/ESLint/App/src/main.js
+/home/fjrodafo/Documents/Repos/ESLint/App/src/main.js
    3:1   error  Unexpected var, use let or const instead                              no-var
    3:15  error  Missing semicolon                                                     semi
    4:15  error  Missing semicolon                                                     semi
@@ -203,4 +203,4 @@ console.log(array);
 ```
 
 <link rel="stylesheet" href="./README.css">
-<a class="scrollup" href="#top">&#x1F53A</a>
+<a class="scrollup" href="#top">&#x1F53C</a>
