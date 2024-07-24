@@ -12,7 +12,20 @@ This project was build by following the [discord.js guide](https://discordjs.gui
 
 ## Installation
 
-Install the [ESLint package](https://www.npmjs.com/package/eslint) inside your project directory (Make sure you are in the `App` directory):
+Open your directory where you save your repositories and clone it with the following command:
+
+```shell
+# GitHub
+git clone https://github.com/FJrodafo/ESLint.git
+
+# GitLab
+git clone https://gitlab.com/FJrodafo/ESLint.git
+
+# Bitbucket
+git clone https://bitbucket.org/fjrodafo/eslint.git
+```
+
+Then install the [ESLint package](https://www.npmjs.com/package/eslint) inside your project directory (Make sure you are in the `App` directory):
 
 ```shell
 npm install --save-dev eslint
