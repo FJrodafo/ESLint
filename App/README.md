@@ -17,10 +17,14 @@ Open your directory where you save your repositories and clone it with the follo
 ```shell
 # GitHub
 git clone https://github.com/FJrodafo/ESLint.git
+```
 
+```shell
 # GitLab
 git clone https://gitlab.com/FJrodafo/ESLint.git
+```
 
+```shell
 # Bitbucket
 git clone https://bitbucket.org/fjrodafo/eslint.git
 ```
